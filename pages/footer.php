@@ -10,9 +10,9 @@
         </div>
         <div>
             <div class="d-flex justify-content-evenly align-items-center mx-10 my-0">
-                <img class="footer__img" src="../images/icons8-github-48.png" alt="GitHub">
-                <img class="footer__img" src="../images/icons8-linkedin-48.png" alt="LinkedIn">
-                <img class="footer__img" src="../images/icons8-instagram-50.png" alt="Instagram">
+                <img class="footer__img" src="images/icons8-github-48.png" alt="GitHub">
+                <img class="footer__img" src="images/icons8-linkedin-48.png" alt="LinkedIn">
+                <img class="footer__img" src="images/icons8-instagram-50.png" alt="Instagram">
             </div>
 
         </div>

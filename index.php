@@ -1,13 +1,18 @@
 <?php
-$metaTitle = 'CV Monique';
-$metaDescription = 'Page dediée au CV de Monique Silva, développeur web';
-include 'header.php';
-?>
+$page = filter_input(INPUT_GET, 'page');
 
-<?php
-include 'moniquesilva.php';
-?>
+if ($page === 'accueil') {
+    include 'pages/index.php';
+}
 
-<?php
-include 'footer.php';
-?>
+elseif ($page === 'contact') {
+    include 'pages/contact.php';
+}
+
+elseif ($page === null) {
+    include 'pages/index.php';
+}
+
+else {
+    include 'pages/404.php';
+}

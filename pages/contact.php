@@ -1,4 +1,10 @@
+<?php
 
+
+$metaTitle = 'Contact';
+$metaDescription = 'Commentaires, contact, adresse, telephone';
+include 'header.php';
+?>
   <main>
     <div class="mx-auto justify-content-center align-items-center col-10 col-md-8 col-lg-8">
       <div class="text-center p-5">
@@ -38,3 +44,6 @@
       </form>
     </div>
   </main>
+<?php
+include'footer.php';
+?>

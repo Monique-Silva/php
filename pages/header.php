@@ -5,10 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php $metaTitle?></title>
-    <meta name="description" content="<?$metaDescription?>">
-    <link rel="stylesheet" href="../php/style.css">
-    <link rel="icon" href="../images/logo_team_fleury.svg" type="image/svg">
+    <title><?= $metaTitle?></title>
+    <meta name="description" content="<?= $metaDescription?>">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo_team_fleury.svg" type="image/svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -17,7 +17,7 @@
 <body>
 <header class="d-flex justify-content-between align-items-center  bg-light">
     <div class="">
-        <img class="mt-2 " src="../images/logo_team_fleury.svg" alt="logo de la compagnie">
+        <img class="mt-2 " src="images/logo_team_fleury.svg" alt="logo de la compagnie">
     </div>
 
     <nav class="navbar navbar-expand-sm ">
@@ -30,11 +30,11 @@
             <div class="collapse navbar-collapse text-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="http://phpdebase.local/php/pages/?page=accueil">Accueil</a>
+                        <a class="nav-link" aria-current="page" href="http://phpdebase.local/php/?page=accueil">Accueil</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="http://phpdebase.local/php/pages/?page=contact">Contact</a>
+                        <a class="nav-link" href="http://phpdebase.local/php/?page=contact">Contact</a>
                     </li>
                 </ul>
             </div>

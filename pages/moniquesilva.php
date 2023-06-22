@@ -4,7 +4,7 @@
         class="bg-white d-flex flex-column justify-content-center align-items-center position-relative container-lg">
 
         <div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
-            <img class="rounded-pill my-2 img_cv_size mt-xl-4 " src="../images/photo_monique.jpg"
+            <img class="rounded-pill my-2 img_cv_size mt-xl-4 " src="images/photo_monique.jpg"
                  alt="Photo de Monique Silva">
             <div class="d-flex flex-column ms-md-2 p-3">
                 <h1 class="mb-2 text-black m-md-2">Monique Silva</h1>
