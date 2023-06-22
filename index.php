@@ -1,5 +1,5 @@
 <?php
-$page = filter_input(INPUT_GET, 'page');
+$page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_SPECIAL_CHARS);
 
 if ($page === 'accueil') {
     include 'pages/index.php';
